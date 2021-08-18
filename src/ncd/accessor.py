@@ -26,6 +26,7 @@ class NCDBytesReader(NCDAccessor):
     def read(self, offset: int, length: int) -> bytearray:
         return self.bytes[offset:offset+length]
 
+#  XXX switchable accessor
 # XXX timeouts
 class NCDHttpAccessor(NCDAccessor):
     def __init__(self, url: str):
