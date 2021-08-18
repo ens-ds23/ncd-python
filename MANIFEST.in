@@ -1,0 +1,2 @@
+include *.ncd
+recursive-include tests *.py *.ncd
