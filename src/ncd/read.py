@@ -1,6 +1,5 @@
 from struct import iter_unpack, unpack
 from typing import Tuple, Union
-from typing_extensions import ParamSpecArgs
 import mmh3
 
 from .accessor import NCDAccessor
