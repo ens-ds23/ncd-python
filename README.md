@@ -11,3 +11,9 @@ Applications include lookup and identifier resolution for large network-served d
 of requirements for which NCD is optimal are probably rather niche.
 
 NCD expands to Netword Constant Database as the design was heavily influenced bj Dan Bernstein's Constant Database (cdb).
+
+Install this package with
+
+pip install git+https://github.com/ens-ds23/ncd-python.git
+
+Note that you will need a recent version of pip to install this package.

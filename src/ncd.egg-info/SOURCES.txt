@@ -13,6 +13,7 @@ src/ncd/util.py
 src/ncd.egg-info/PKG-INFO
 src/ncd.egg-info/SOURCES.txt
 src/ncd.egg-info/dependency_links.txt
+src/ncd.egg-info/requires.txt
 src/ncd.egg-info/top_level.txt
 tests/smoke.ncd
 tests/test_bitbash.py
