@@ -6,7 +6,7 @@ class NCDAccessor:
 
 class NCDFileAccessor(NCDAccessor):
     def __init__(self,filename: str):
-        self.file = open(filename,"r+b")
+        self.file = open(filename,"rb")
 
     def read(self, offset: int, length: int) -> bytearray:
         out = bytearray()
